@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*{
+    font-family: 'Ranchers', cursive;
+} */
+
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    padding:0px 20px;
+    font-family: 'Ranchers', cursive;
+}
+
+header .brand h1{
+    font-size:20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .menu a{
+   font-weight:bold;
+   text-decoration: none;
+   margin:0px 20px;
+   cursor:pointer;
+}
+
+
+header .menu a:hover{
+    color:#f4b43f;
+}
+
+
+header .left a{
+    font-weight:bold;
+    text-decoration: none;
+    margin:0px 20px;
+    cursor:pointer;
+}
+
+header .left a i{
+    color:#f4b43f;
+}
+
+/* star main */
+
+main .section1{
+    margin-top:50px;
+    font-family: 'Ranchers', cursive;
+}
+
+main .section1{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+main .section1 .left{
+    overflow:hidden;
+}
+
+main .section1 .left img{
+    margin-left:50px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+
+main .section1 .left img:hover{
+    transform:scale(1.1);
+    border-radius:10px;
+}
+
+main .section1 .right{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+main .section1 .right > .text h1{
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+
+
+main .section1 .right > .text p{
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+
+main .section1 .right > .text button{
+    background:linear-gradient(0.25turn ,#FFA318,#ee3d16);
+    width:200px;
+    border:1px solid #FFA318;
+    color:white;
+    padding:10px 10px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+
+main .section1 .right > .text button:hover{
+    background:linear-gradient(0.25turn ,#ee3d16,#FFA318);
+    border:1px solid #FFA318;
+    color:white;
+}
+
+/* starts section-2 */
+main .section2 {
+    margin-top:120px;
+    padding:0px 20px;
+    text-align:center;
+    font-family: 'Ranchers', cursive;
+}
+
+main .section2 .images{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .section2 .text{
+    text-align: center;
+    font-size:30px;
+}
+
+main .section2 .images img{
+    flex-basis:25%;
+    width:12rem;
+    margin-top:10px;
+    border-radius:10px;
+    transition:transform 30ms easy-in;
+}
+
+
+main .section2 .images img:hover{
+   transform:scale(1.1);
+}
+
+
+main .section2  button{
+    background:linear-gradient(0.25turn ,#FFA318,#ee3d16);
+    width:200px;
+    text-align: center;
+    border:1px solid #FFA318;
+    color:white;
+    padding:10px 10px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:100px;
+    font-family: 'Ranchers', cursive;
+}
+
+main .section2  button:hover{
+    background:linear-gradient(0.25turn ,#ee3d16,#FFA318);
+    border:1px solid #FFA318;
+    color:white;
+}
+
+/* start section-3 */
+main .section-3 {
+    margin-top:90px;
+    font-family: 'Pacifico', cursive;
+}
+
+main .section-3 .row {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+main .section-3 .row .cardPizza{
+    flex-basis:15rem;
+    border:1px solid #f2a22c;
+    border-radius:10px;
+    padding-bottom:10px;
+    background:white;
+    margin:10px 40px;
+}
+
+main .section-3 .row .cardPizza{
+    text-align:center;
+}
+
+main .section-3 .row .cardPizza img{
+    width:15rem;
+    border-radius:10px;
+}
+
+main .section-3 .row .cardPizza #last{
+    background:linear-gradient(0.25turn ,#FFA318,#ee3d16);
+    width:200px;
+    text-align: center;
+    border:1px solid #FFA318;
+    color:white;
+    padding:10px 10px;
+    border-radius:10px;
+    cursor:pointer;
+    font-family: 'Ranchers', cursive;
+}
+
+main .section-3 .row .cardPizza .button button:hover{
+    color:black;
+    border:1px solid black;
+    background:white; 
+}
+
+
+main .section-3 .row .cardPizza .button button{
+    border-radius:50px;
+    padding:10px;
+    color:white;
+    border:1px solid rgb(14, 12, 12); 
+    background:rgb(14, 12, 12); 
+    cursor:pointer;
+}
+
+main .section-3 .row .cardPizza #last:hover{
+    background:linear-gradient(0.25turn ,#ee3d16,#FFA318);
+    border:1px solid #FFA318;
+    color:white;
+}
+
+main .section-3 .menuPizza{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+main .section-3 .menuPizza a{
+    margin:0pc 10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+main .section-3 .menuPizza a:hover{
+    color:#FFA318;
+    transform:scale(1.1);
+}
